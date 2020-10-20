@@ -132,7 +132,7 @@ nav a:focus{
 }
 
 .definition-bmi__title{
-  background-image: url(../picture/tạ.jpg);
+  background-image: url(../picture/tạ.jpg);
   background-color: #b6564a;
   background-blend-mode: multiply;
   padding: 3cm 1cm;
@@ -144,12 +144,44 @@ nav a:focus{
   justify-content: space-around;
 } */
 
+/* .box-section-title ul li a {
+  text-decoration: none;
+  color: #fff;
+} */
+ /* .active, box-section-title ul li :hover  {
+  background: #f24633;
+  border-radius: 3px;
+} */
 
+.sub-menu-1 {
+  display: none;
+}
+.box-section-title ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 0px;
+  margin-left: -15px;
+}
+.box-section-title ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
 
-
-
-
-
+.sub-menu-2 {
+  display: none;
+}
+.box-section-title ul li:hover .sub-menu-2 { 
+  display: block;
+  position: absolute;
+  background: #0a0a0a;
+  margin-top: 0px;
+  margin-left: -15px;
+}
+.box-section-title ul li:hover .sub-menu-2 ul {
+  display: block;
+  margin: 10px;
+}
 
 
 
