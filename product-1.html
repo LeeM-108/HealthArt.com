@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="index.js">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans+Condensed:wght@300&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="jquery.nice-number.css">
 
 
 </head>
@@ -53,7 +55,7 @@
         <div class="box-section-title">
             <nav>
                 <ul>
-                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="#">Trang chủ</a></li>
                     <li><a href="#">Về chúng tôi</a></li>
                     <li><a href="#">Bài tập</a>
                         <div class="sub-menu-1">
@@ -64,12 +66,12 @@
                             </ul>
                         </div>
                     </li>
-                    <li><a href="shop.html">Cửa hàng</a>
+                    <li><a href="#">Cửa hàng</a>
                         <div class="sub-menu-2">
                             <ul>
-                                <li><a href="#">Tạ</a></li>
-                                <li><a href="#">Dây nhảy</a></li>
-                                <li><a href="#">Quần áo thể thao</a></li>
+                                <li><a href="weightlift.html">Tạ</a></li>
+                                <li><a href="rope.html">Dây nhảy</a></li>
+                                <li><a href="clothing.html">Quần áo thể thao</a></li>
                             </ul>
                         </div>
                     </li>
@@ -78,45 +80,35 @@
             </nav>
         </div>
     </header>
-    <main>
-        <section class="slides-content">
-            <!-- <img src="picture/photo-1523901839036-a3030662f220.jpeg" alt="img"> -->
-            <h2 class="section-title">Không quan trọng bạn bắt đầu từ đâu</h2>
-        </section>
-        <section class="intro">
-            <h2 class="section-title">Chúng tôi <span class="text-primary">đến từ Việt Nam</span> và chúng tôi sẽ <span class="text-primary">giúp người Việt Nam bảo vệ sức khoẻ</span> của
-                mình</h2>
-        </section>
+    
+    <div class="avatar">
+        <img src="picture/tạ 1.jpg" alt="Tạ tập tay">
+    </div>
+    <h1 class="name">Bộ tạ cầm tay 4kg</h1>
+    <div class="brand">Hãng sx: Nike</div>
+    <div class="price">320.000đ</div>
+    <div class="use">
+        <ul>
+            <li>Tập luyện thể lực và tốc độ</li>
+            <li>Giảm cân nhanh chóng</li>
+            <li>Gọn gàng, tiện lợi</li>
+        </ul>
+    </div>
+    <div class="quantity">
+        <input id="number" type="number" min="1" value="1"> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./jquery.nice-number.js"></script>
+        <script>
+            $(function(){
 
-        <section class="definition-bmi">
-            <header>
-                <div class="definition-bmi__title"><h2>Chỉ số BMI:</h2></div>
-            </header>
-            <div class="definition-bmi__body">
-                <p>Sức mạnh ẩn chứa của chỉ số BMI</p>
-                <p>Khám phá sức khoẻ của chính bạn chỉ thông qua chỉ số BMI</p>
-            </div>
-        </section>
+$('input[type="number"]').niceNumber();
 
-        <section class="cal-bmi">
-            <div class="cal-bmi__cal">
-                <span>TÍNH</span> chỉ số BMI!
-            </div>
-            <div class="cal-bmi__index">
-                Tìm hiểu về chỉ số BMI
-            </div>
-        </section>
-
-
-    </main>
-
-
-
-
-
-
-
-    <script src="index.js"></script>
+});
+        </script>
+    </div>
+    <div class="buy">
+        <button>Thêm vào giỏ hàng</button>
+    </div>
+    
 </body>
-
 </html>

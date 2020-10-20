@@ -15,7 +15,7 @@
     padding-left: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
-    width: 360px;
+    width: 500px;
     
 
 }
@@ -35,7 +35,7 @@
 
 }
 .product{
-    background-color: seashell;
+    background-color: ivory;
     display: inline-flex;
     list-style: none;  
     
@@ -71,6 +71,12 @@
     border: 2px solid black;
     
     margin-right: 5px;
+}
+.product-6 {
+    width: 210px;
+    border: 2px solid black;
+    
+    margin-right: 5px; 
 }
 
 .prod-name {
