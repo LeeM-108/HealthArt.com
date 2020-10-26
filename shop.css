@@ -94,3 +94,10 @@ nav a:focus{
     color: var(--clr-primary);
     text-decoration: underline;
 }
+
+.product-detail {
+    display: flex;
+}
+.product-detail .info {
+    margin-left: 90px;
+}
