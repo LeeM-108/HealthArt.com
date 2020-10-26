@@ -98,7 +98,7 @@ for(let i=0;i<baitap.length;i++){
     
     let h1 = document.createElement('h1')
     h1.classList.add(`tenbaitap`)
-    h1.innerText = `${k}. ${baitap[i].name}`
+    h1.innerText = `${k}. ${baitap[i].name} `
     let descDiv = document.createElement('div')
     descDiv.innerText = `${baitap[i].mota}`
     
