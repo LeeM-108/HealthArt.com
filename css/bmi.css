@@ -1,0 +1,143 @@
+:root{
+    --clr-text:  #5c5c5c;
+    --clr-primary:  #f24633;
+    --clr-accent:  #0c0c0c;
+    --clr-white: #ffffff;
+    
+    --ff-title:'Anton', sans-serif; 
+    --ff-content: 'Open Sans Condensed', sans-serif;
+}
+.logo{
+    margin: 0;
+}
+.box-logo{
+    background: #f24633;
+    width: 280px;
+  /* border-top: 120px solid #f24633;
+  border-right: 90px solid transparent ; */
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: var(--ff-title);
+  color: var(--clr-white) ;
+  
+}
+.box-logo a {
+    text-decoration: none;
+    color: var(--clr-white);
+  }
+  .box-section-title{
+    padding: 0 0 2cm;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    background-color: var(--clr-accent);
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 15px;
+    color: var(--clr-white);
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  nav a:hover, 
+  nav a:focus{
+    color: var(--clr-primary);
+    text-decoration: underline;
+  }
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Define{
+  border: 0;
+  margin-top: -79px;
+  width: 100%;
+  height: 560px;
+  background-image: url("https://www.cfyc.com.vn/images_server/themes/celebration/img/club/banner-ha-noi.jpg?v=0.1");
+  background-repeat: no-repeat;
+  padding: 20px 20px;
+}
+.bmi{
+  color:white;
+  font-size:50px;
+  margin-top: 140px;
+  margin-left: 100px;
+  font-family: 'Courgette', cursive;
+}
+.what{
+  color: #f24633;
+  font-size: 80px;
+  margin-left: 70px;
+  font-family: 'Holtwood One SC', serif;
+}
+.calculation{
+  font-size: 45px;
+  text-align: center;
+  color: rgb(221, 19, 19);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: 'Lobster', cursive;
+}
+.calculation::before{
+  content: '\25AC\25AC\25AC\25AC\25AC';
+  font-size: 18px;
+}
+.calculation::after{
+  content: '\25AC\25AC\25AC\25AC\25AC';
+  font-size: 18px;
+}
+.text {
+  position: relative;
+  text-align: center;
+  height: 330px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+.text img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.3;
+}
+.USE{
+  font-size: 20px;
+  border: white 1px;
+  border-radius: 5px 5px 5px 5px;
+  flex: 25%;
+  box-shadow:  rgba(0, 0, 0, 0.2) 0px 5px 15px;
+  padding-left: 15px;
+  text-align: left;
+}
+.define{
+  font-size: 20px;
+  border: white 1px;
+  border-radius: 5px 5px 5px 5px;
+  flex: 25%;
+  box-shadow:  rgba(0, 0, 0, 0.2) 0px 5px 15px;
+  padding-left: 15px;
+  text-align: left;
+}
+.evaluate{
+  font-size: 20px;
+  border: white 1px;
+  border-radius: 5px 5px 5px 5px;
+  flex: 25%;
+  box-shadow:  rgba(0, 0, 0, 0.2) 0px 5px 15px;
+  padding-left: 15px;
+  text-align: left;
+}
