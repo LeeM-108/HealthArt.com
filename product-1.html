@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HealthArt.com</title>
+    <title>Bộ tạ cầm tay 4kg</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="index.js">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans+Condensed:wght@300&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="shop.css">
     <link rel="stylesheet" href="jquery.nice-number.css">
+
 
 
 </head>
@@ -80,35 +81,38 @@
             </nav>
         </div>
     </header>
-    
-    <div class="avatar">
-        <img src="picture/tạ 1.jpg" alt="Tạ tập tay">
-    </div>
-    <h1 class="name">Bộ tạ cầm tay 4kg</h1>
-    <div class="brand">Hãng sx: Nike</div>
-    <div class="price">320.000đ</div>
-    <div class="use">
-        <ul>
-            <li>Tập luyện thể lực và tốc độ</li>
-            <li>Giảm cân nhanh chóng</li>
-            <li>Gọn gàng, tiện lợi</li>
-        </ul>
-    </div>
-    <div class="quantity">
-        <input id="number" type="number" min="1" value="1"> 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="./jquery.nice-number.js"></script>
-        <script>
-            $(function(){
+    <div class="product-detail">
+        <div class="avatar">
+            <img src="picture/tạ 1.jpg" alt="Tạ tập tay" width="400">
+        </div>
+        <div class="info">
+            <h1 class="name">Bộ tạ 30kg</h1>
+            <div class="brand">Hãng sx: Bowflex</div>
+            <p>5.750.000đ</p>
+            <div class="use">
+                <ul>
+                    <li>Hỗ trợ những bài tập về cơ bắp</li>
+                    <li>Giảm cân nhanh chóng</li>
+                    <li>Nhỏ gọn, dễ sử dụng</li>
+                </ul>
+            </div>
+            <div class="quantity">
+                <input id="number" type="number" min="1" value="1"> 
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script src="./jquery.nice-number.js"></script>
+                <script>
+                    $(function(){
 
-$('input[type="number"]').niceNumber();
+        $('input[type="number"]').niceNumber();
 
-});
-        </script>
-    </div>
-    <div class="buy">
-        <button>Thêm vào giỏ hàng</button>
-    </div>
-    
-</body>
-</html>
+    });
+                </script>
+            </div>
+        
+            <div class="buy">
+                <button onclick="addTocart">Thêm vào giỏ hàng</button>
+            </div>
+        </div>
+    </div>    
+    </body>
+    </html>

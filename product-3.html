@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HealthArt.com</title>
+    <title>Bộ quần áo thể thao nam</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="index.js">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans+Condensed:wght@300&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="jquery.nice-number.css">
+    <link rel="stylesheet" href="shop.js">
 
 
 </head>
@@ -79,31 +81,48 @@
             </nav>
         </div>
     </header>
-    <h1>Danh mục</h1>
-
-    <div class="category">
-        <a class="btn-category" href="shop.html">Tất cả sản phẩm</a>
-        <a class="btn-category" href="weightlift.html">Tạ</a>
-        <a class="btn-category" href="rope.html">Dây nhảy</a>
-        <a class="btn-category" href="clothing.html">Bộ thể thao</a>
-    
-    </div>
-    <br>
-    <br>
-
-    <div class="product">
-        <div class="product-3">
-            <nav>
-                <a href="#" class="prod-img"><img src="picture/Quần áo tập.jpg" alt="bộ đồ tập"></a>
-                <a href="#"><div class="prod-name">Bộ quần áo tập adidas nam</div></a>
-            </nav>
+    <div class="product-detail">
+        <div class="avatar">
+            <img src="picture/Quần áo tập.jpg" alt="Dây nhảy" width="400">
         </div>
-        <div class="product-4">
-            <nav>
-            <a href="product-4.html" class="prod-img"><img src="picture/quần áo tập nữ.jpg" alt="đồ tập nữ"></a>
-            <a href="product-4.html"><div class="prod-name">Bộ quần áo tập adidas nữ</div></a>
-            </nav>
-        </div>
-    </div>
+        <div class="info">
+            <h1 class="name">Bộ quần thể thao nam</h1>
+            <div class="brand">Hãng sx: adidas</div>
+            <p>5.000.000đ </p>
+            <div class="use">
+                <ul>
+                    <li>Chất liệu coton pha nylon</li>
+                    <li>Dễ dàng giặt giũ</li>
+                    <li>Thích hợp với tập luyện thể thao</li>
+                </ul>
+            </div>
+            <div class="quantity">
+                <input id="number" type="number" min="1" value="1"> 
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script src="./jquery.nice-number.js"></script>
+                <script>
+                    $(function(){
+
+        $('input[type="number"]').niceNumber();
+
+        });
+                </script>
+            </div>
+            <div class="select">
+                <select id="size">
+                    <option value="">Select size</option>
+                    <option value="">XXXL</option>
+                    <option value="">XXL</option>
+                    <option value="">XL</option>
+                    <option value="">L</option>
+                    <option value="">M</option>
+                    <option value="">S</option>
+
+                </select>
+                <div class="buy">
+                <button onclick="addTocart">Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+        </div>    
 </body>
 </html>
