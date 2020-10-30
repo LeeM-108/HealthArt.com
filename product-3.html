@@ -83,12 +83,26 @@
     </header>
     <div class="product-detail">
         <div class="avatar">
-            <img src="picture/Quần áo tập.jpg" alt="Dây nhảy" width="400">
+            <img src="picture/Quần áo tập.jpg" alt="áo tập" id="productImg">
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="picture/Quần áo tập 2.jpg" alt="" width="400" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="picture/Quần áo tập 3.jpg" alt="" width="400" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="picture/Quần áo tập 4.jpg" alt="" width="400" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="picture/Quần áo tập 5.jpg" alt="" width="400" class="smaill-img">
+                </div>
+            </div>
         </div>
         <div class="info">
             <h1 class="name">Bộ quần thể thao nam</h1>
             <div class="brand">Hãng sx: adidas</div>
-            <p>5.000.000đ </p>
+            <h3>5.000.000đ </h3>
             <div class="use">
                 <ul>
                     <li>Chất liệu coton pha nylon</li>
@@ -97,6 +111,7 @@
                 </ul>
             </div>
             <div class="quantity">
+                Số lượng
                 <input id="number" type="number" min="1" value="1"> 
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
                 <script src="./jquery.nice-number.js"></script>
@@ -119,10 +134,34 @@
                     <option value="">S</option>
 
                 </select>
-                <div class="buy">
-                <button onclick="addTocart">Thêm vào giỏ hàng</button>
-                </div>
             </div>
+            <br>
+                <div class="buy">
+                    <button onclick="addTocart">Thêm vào giỏ hàng</button>
+                </div>
+            
         </div>    
+    <script>
+        var productImg = document.getElementById('productImg')
+        var smallImg = document.getElementsByClassName('small-img')
+        smallImg[0].onclick = function() {
+            productImg.src = smallImg[0].src
+        }
+        smallImg[1].onclick = function() {
+            productImg.src = smallImg[1].src
+        }
+        smallImg[2].onclick = function() {
+            productImg.src = smallImg[2].src
+        }
+        smallImg[3].onclick = function() {
+            productImg.src = smallImg[3].src
+        }
+        smallImg[4].onclick = function() {
+            productImg.src = smallImg[4].src
+        }
+
+
+
+    </script>
 </body>
 </html>

@@ -101,3 +101,41 @@ nav a:focus{
 .product-detail .info {
     margin-left: 90px;
 }
+.product-detail .avatar {
+    margin-left: 100px;
+}
+.info .brand {
+    font-size: 22px;
+}
+.info h3 {
+    font-size: 30px;
+    color: var(--clr-primary);
+}
+.info ul {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.info select {
+    margin-left: 27px;
+    padding: 5px;
+    display: block;
+
+}
+.avatar{
+    width: 400px;
+}
+.avatar > img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.small-img-row {
+    display: flex;
+    justify-content: space-around;
+}
+.small-img-col {
+    flex-basis: 25%;
+    cursor: pointer;
+
+}
