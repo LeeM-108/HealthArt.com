@@ -6,6 +6,18 @@
 #all{
     width: 750px;
     margin-left: 100px;
+    
+    
+}
+.backgroud-text{
+  color: #ffffff;
+  position: absolute;
+  width: 500px;
+  margin-left: 100px;
+}
+.backgroud-img{
+  height: 450px;
+  width: 100%;
 }
 .tenbaitap{
     font-size: 30px;
