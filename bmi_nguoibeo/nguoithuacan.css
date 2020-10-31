@@ -593,42 +593,41 @@
 }
 .title{
     margin-left: 11%;
-    margin-top: -140px;
 }
 .how{
     color: white;
     font-size: 40px;
-    margin-top: 200px;
+    margin-top: 3%;
     font-family: 'Dancing Script', cursive;
 }
 .page{
     font-size: 55px;
     color:white;
     font-family: 'Anton', sans-serif;
-    margin-top: -10px;
+    margin-top: 0%;
 }
 .title-text{
     font-size: 35px;
     color: white;
-    margin-top: 18px;
+    margin-top: 1%;
 }
 .bmi{
     font-size: 100px;
     color: red;
     font-family: 'Cookie', cursive;
-    margin-top: 30px;
-    margin-left: 80px;
+    margin-top: 1%;
+    margin-left: 5%;
 }
 .img1 img{
     margin-top: 1%;
-    width: 600px;
-    height: 280px;
+    width: 38%;
+    height: 19%;
     border: 1px;
     box-shadow: 0 0 5px black;
 }
 .method{
     margin-left: 50%;
-    margin-top: 45px;
+    margin-top: 4%;
 }
 .know{
     font-size: 49px;
