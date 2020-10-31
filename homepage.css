@@ -271,6 +271,12 @@ nav a {
   text-decoration: none;
   font-size: 20px;
 }
+nav a:hover{
+  color: var(--clr-primary);
+  text-decoration-color: var(--clr-primary);
+  transition: 0.5s;
+}
+
 
 /* nav a:hover, 
 nav a:focus{
@@ -349,7 +355,7 @@ nav a:focus{
 }
 
 .definition-bmi {
-  background-image: url(../picture/tạ.jpg);
+  background-image: url(picture/tạ.jpg);
   display: flex;
   flex-direction: column;
   background-blend-mode: multiply;
