@@ -81,6 +81,14 @@
             </nav>
         </div>
     </header>
+    <div class="category">
+        <a class="btn-category" href="shop.html">Tất cả sản phẩm</a>
+        <a class="btn-category" href="weightlift.html">Tạ</a>
+        <a class="btn-category" href="rope.html">Dây nhảy</a>
+        <a class="btn-category" href="clothing.html">Bộ thể thao</a>
+    </div>
+    <br>
+    <br>
     <div class="product-detail">
         <div class="avatar">
             <img src="picture/Quần áo tập.jpg" alt="áo tập" id="productImg">
@@ -95,7 +103,7 @@
                     <img src="picture/Quần áo tập 4.jpg" alt="" width="400" class="small-img">
                 </div>
                 <div class="small-img-col">
-                    <img src="picture/Quần áo tập 5.jpg" alt="" width="400" class="smaill-img">
+                    <img src="picture/Quần áo tập 5.jpg" alt="" width="400" class="small-img">
                 </div>
             </div>
         </div>
@@ -110,19 +118,6 @@
                     <li>Thích hợp với tập luyện thể thao</li>
                 </ul>
             </div>
-            <div class="quantity">
-                Số lượng
-                <input id="number" type="number" min="1" value="1"> 
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-                <script src="./jquery.nice-number.js"></script>
-                <script>
-                    $(function(){
-
-        $('input[type="number"]').niceNumber();
-
-        });
-                </script>
-            </div>
             <div class="select">
                 <select id="size">
                     <option value="">Select size</option>
@@ -132,15 +127,25 @@
                     <option value="">L</option>
                     <option value="">M</option>
                     <option value="">S</option>
-
                 </select>
+            </div>    
+            <div class="quantity">
+                Số lượng
+                <!-- <input id="number" type="number" min="1" value="1">  -->
+                <input type="number" value="1" min="1">
+                <a href="" class="btn-add2cart">Thêm vào giỏ hàng</a>
+                <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script src="./jquery.nice-number.js"></script>
+                <script>
+                    $(function(){
+
+        $('input[type="number"]').niceNumber(); -->
+
+        <!-- });
+                </script> -->
             </div>
-            <br>
-                <div class="buy">
-                    <button onclick="addTocart">Thêm vào giỏ hàng</button>
-                </div>
-            
-        </div>    
+        </div>   
+
     <script>
         var productImg = document.getElementById('productImg')
         var smallImg = document.getElementsByClassName('small-img')
@@ -159,9 +164,10 @@
         smallImg[4].onclick = function() {
             productImg.src = smallImg[4].src
         }
-
-
-
     </script>
+    <br>
+    <br>
 </body>
+<br>
+<br>
 </html>

@@ -480,7 +480,11 @@ nav a:focus{
   color: var(--clr-primary);
   cursor: pointer;
 }
-
+nav a:hover{
+  color: var(--clr-primary);
+  text-decoration-color: var(--clr-primary);
+  transition: 0.5s;
+}
 
 
 
