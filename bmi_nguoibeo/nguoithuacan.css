@@ -641,8 +641,8 @@
     font-family: 'Dancing Script', cursive;
 }
 .content{
-    margin-top: 100px;
-    margin-left: 150px;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 .kienThuc{
     font-size: 70px;
