@@ -77,15 +77,20 @@ for(let i=0;i<baitap.length;i++){
     let h1=document.createElement('h1')
     h1.classList.add('tenbaitap')
     h1.innerHTML=`${k}. ${baitap[i].name}`
+    let br1=document.createElement('br')
     let descDiv=document.createElement('div')
     descDiv.innerHTML=`${baitap[i].mota}`
-
+    let br2=document.createElement('br')
     let noteDiv=document.createElement('div')
     noteDiv.classList.add('ghichu')
     noteDiv.innerHTML=`<img class="img"src="${baitap[i].img}" alt="Ảnh"><caption>${baitap[i].caption}</caption>`
+    let br3=document.createElement('br');
     domtangcan.appendChild(h1)
+    domtangcan.appendChild(br1)
     domtangcan.appendChild(descDiv)
+    domtangcan.appendChild(br2)
     domtangcan.appendChild(noteDiv)
+    domtangcan.appendChild(br3)
     let gtDiv=document.createElement('div')
     gtDiv.innerHTML=`${baitap[i].gt}`
     domtangcan.appendChild(gtDiv)
