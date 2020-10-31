@@ -1,0 +1,27 @@
+:root{
+    --clr-text:  #5c5c5c;
+    --clr-primary:  #f24633;
+    --clr-accent:  #0c0c0c;
+    --clr-white: #f7f7f7;
+    
+    --ff-title:'Anton', sans-serif; 
+    --ff-content: 'Open Sans Condensed', sans-serif;
+    --ff-typo: 'Pacifico', cursive;
+    --ff-logo: 'Bangers', cursive;
+  }
+.about-us {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 10px;
+}
+.about-us h1{
+    color:  var(--clr-white);
+    font-weight: bold;
+    font-family: var(--ff-title);
+    background-color: var(--clr-primary) ;
+
+}
+.about-us p {
+    font-size: 30px;
+}
