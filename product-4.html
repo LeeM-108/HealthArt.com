@@ -81,32 +81,42 @@
             </nav>
         </div>
     </header>
+    <div class="category">
+        <a class="btn-category" href="shop.html">Tất cả sản phẩm</a>
+        <a class="btn-category" href="weightlift.html">Tạ</a>
+        <a class="btn-category" href="rope.html">Dây nhảy</a>
+        <a class="btn-category" href="clothing.html">Bộ thể thao</a>
+    </div>
+    <br>
+    <br>
     <div class="product-detail">
         <div class="avatar">
-            <img src="picture/quần áo tập nữ.jpg" alt="Quần áo nữ" width="400">
+            <img src="picture/quần áo tập nữ.jpg" width="400" id="productImg">
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="picture/quần áo tập nữ 2.jpg" width="400" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="picture/quần áo tập nữ 3.jpg" width="400" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="picture/quần áo tập nữ 4.jpg" width="400" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="picture/quần áo tập nữ 5.jpg" width="400" class="small-img">
+                </div>
+            </div>
         </div>
         <div class="info">
             <h1 class="name">Bộ áo tập gym nữ</h1>
             <div class="brand">Hãng sx: adidas</div>
-            <p>5.900.000đ </p>
+            <h3>5.900.000đ </h3>
             <div class="use">
                 <ul>
                     <li>Chất liệu coton pha nylon</li>
                     <li>Dễ dàng giặt giũ</li>
                     <li>Thời trang, phù hợp với tập thể hình</li>
                 </ul>
-            </div>
-            <div class="quantity">
-                <input id="number" type="number" min="1" value="1"> 
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-                <script src="./jquery.nice-number.js"></script>
-                <script>
-                    $(function(){
-
-        $('input[type="number"]').niceNumber();
-
-        });
-                </script>
             </div>
             <div class="select">
                 <select id="size">
@@ -120,10 +130,46 @@
 
                 </select>
             </div>
-            <div class="buy">
-                <button onclick="addTocart">Thêm vào giỏ hàng</button>
-                </div>
+            <div class="quantity">
+                Số lượng
+                <input type="number" value="1" min="1
+                ">
+                <a href="" class="btn-add2cart">Thêm vào giỏ hàng</a>
+                <!-- <input id="number" type="number" min="1" value="1"> 
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script src="./jquery.nice-number.js"></script>
+                <script>
+                    $(function(){
+
+        $('input[type="number"]').niceNumber();
+
+        }); -->
+                </script>
             </div>
+           
     </div>
+    <script>
+        var productImg = document.getElementById('productImg')
+        var smallImg = document.getElementsByClassName('small-img')
+        smallImg[0].onclick = function() {
+            productImg.src = smallImg[0].src
+        }
+        smallImg[1].onclick = function() {
+            productImg.src = smallImg[1].src
+        }
+        smallImg[2].onclick = function() {
+            productImg.src = smallImg[2].src
+        }
+        smallImg[3].onclick = function() {
+            productImg.src = smallImg[3].src
+        }
+        smallImg[4].onclick = function() {
+            productImg.src = smallImg[4].src
+        }
+    </script>
+    <br>
+    <br>
 </body>
+<br>
+<br>
 </html>
