@@ -570,17 +570,17 @@
   
 
   .ketQua{
-    margin-top: 50px;
-    margin-left: 300px;
+    margin-top: 3%;
 }
 .chucMung{
     font-size: 40px;
     color: red;
+    margin-left: 20%;
 }
 .ketQua-text{
     font-size: 30px;
     color: white;
-    margin-left: -50px;
+    margin-left: 18%;
 }
 .define{
     position: relative;
@@ -588,11 +588,11 @@
 .define img{
     position: absolute;
     z-index: -1;
-    margin-top: -50px;
+    margin-top: -3%;
     width: 100%;
 }
 .title{
-    margin-left: 170px;
+    margin-left: 11%;
     margin-top: -140px;
 }
 .how{
@@ -620,14 +620,14 @@
     margin-left: 80px;
 }
 .img1 img{
-    margin-top: 10px;
+    margin-top: 1%;
     width: 600px;
     height: 280px;
     border: 1px;
     box-shadow: 0 0 5px black;
 }
 .method{
-    margin-left: 620px;
+    margin-left: 50%;
     margin-top: 45px;
 }
 .know{
