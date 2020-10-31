@@ -67,6 +67,16 @@
   height: 5px;
   background-color: #5c5c5c;
 }
+.video-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.video-container iframe {
+  width: 90%;
+}
 
 :root {
   --clr-text: #5c5c5c;
@@ -394,17 +404,3 @@ p {
   font-size: 53px;
 }
 
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
-  height: 0;
-}
-
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}

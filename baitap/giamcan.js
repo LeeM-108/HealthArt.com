@@ -92,6 +92,7 @@ let baitap = [
     }
 
 ]
+
 let domgiamcan=document.getElementById(`all`);
 let k=1;
 for(let i=0;i<baitap.length;i++){
