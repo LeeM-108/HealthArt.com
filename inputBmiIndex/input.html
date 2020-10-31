@@ -10,6 +10,7 @@
     rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="icon" href="../picture/faviconHA.png" type="image/gif" sizes="16x16">
     <script src="https://kit.fontawesome.com/f141a7b607.js" crossorigin="anonymous"></script>
 
 
@@ -19,16 +20,17 @@
     <div class="section">
         <div class="box">
             <h2>Hãy nhập thông tin được yêu cầu dưới đây:</h2>
-            <form>
+            <form action="" id="myForm">
                 <div>
-                    <input class="inputHeight" type="number">   
+                    <input class="inputHeight" type="number" name="a">   
                     <label>Chiều cao (cm)</label>
                 </div>
                 <div>
-                    <input class="inputWeight" type="number">
+                    <input class="inputWeight" type="number" name="b">
                     <label>Cân nặng (kg)</label>
                 </div>
                 <input type="submit" name="" value="submit">
+
             </form>
         </div>
         <div class="video-container">
@@ -37,6 +39,7 @@
             </video>
         </div>
     </div>
+    <script src="../tinh_BMI.js"></script>
     
 
 
