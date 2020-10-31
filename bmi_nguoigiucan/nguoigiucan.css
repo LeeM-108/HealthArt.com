@@ -591,42 +591,41 @@
 }
 .title{
     margin-left: 11%;
-    margin-top: -140px;
 }
 .how{
     color: white;
     font-size: 40px;
-    margin-top: 200px;
+    margin-top: 3%;
     font-family: 'Dancing Script', cursive;
 }
 .page{
     font-size: 55px;
     color:white;
     font-family: 'Anton', sans-serif;
-    margin-top: -10px;
+    margin-top: 0%;
 }
 .title-text{
     font-size: 35px;
     color: white;
-    margin-top: 18px;
+    margin-top: 1%;
 }
 .bmi{
     font-size: 100px;
     color: red;
     font-family: 'Cookie', cursive;
-    margin-top: 30px;
-    margin-left: 80px;
+    margin-top: 1%;
+    margin-left: 5%;
 }
 .img1 img{
     margin-top: 1%;
-    width: 600px;
-    height: 280px;
+    width: 38%;
+    height: 19%;
     border: 1px;
     box-shadow: 0 0 5px black;
 }
 .method{
     margin-left: 50%;
-    margin-top: 45px;
+    margin-top: 4%;
 }
 .know{
     font-size: 49px;
@@ -640,17 +639,17 @@
     font-family: 'Dancing Script', cursive;
 }
 .content{
-    margin-top: 100px;
-    margin-left: 150px;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 .kienThuc{
     font-size: 70px;
     font-family: 'Dancing Script', cursive;
     color: red;
-    margin-left: 420px;
+    margin-left: 32%;
 }
 .table{
-    margin-top: 50px;
+    margin-top: 5%;
     display: flex;
 }
 .tieuThu{
@@ -663,7 +662,7 @@
   text-align: left;
 }
 .dinhDuong{
-    font-size: 20px;
+  font-size: 20px;
   border: white 1px;
   border-radius: 5px 5px 5px 5px;
   flex: 33%;
@@ -693,11 +692,4 @@
 .num::before{
   content: "\27A3";
   color:red;
-}
-.luuY{
-    font-family: 'Source Serif Pro', serif;
-}
-.luuY::before{
-    content: "\2736";
-    color: red;
 }

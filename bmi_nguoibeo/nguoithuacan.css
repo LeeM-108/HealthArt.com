@@ -569,7 +569,7 @@
   
   
 
-  .ketQua{
+.ketQua{
     margin-top: 3%;
 }
 .chucMung{
@@ -648,10 +648,10 @@
     font-size: 70px;
     font-family: 'Dancing Script', cursive;
     color: red;
-    margin-left: 420px;
+    margin-left: 32%;
 }
 .table{
-    margin-top: 50px;
+    margin-top: 5%;
     display: flex;
 }
 .tieuThu{
@@ -664,7 +664,7 @@
   text-align: left;
 }
 .dinhDuong{
-    font-size: 20px;
+  font-size: 20px;
   border: white 1px;
   border-radius: 5px 5px 5px 5px;
   flex: 33%;
