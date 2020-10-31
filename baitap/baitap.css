@@ -2,10 +2,10 @@
     font-size: 20px;
     
 }
+
 #all{
     width: 750px;
-    margin-left: 200px;
-    
+    margin-left: 100px;
 }
 .tenbaitap{
     font-size: 30px;
@@ -217,4 +217,152 @@
     margin-left: -15px;
     z-index: 5;
   }
+  :root{
+  --clr-text:  #5c5c5c;
+  --clr-primary:  #f24633;
+  --clr-accent:  #0c0c0c;
+  --clr-white: #ffffff;
   
+  --ff-title:'Anton', sans-serif; 
+  --ff-content: 'Open Sans Condensed', sans-serif;
+}
+
+
+
+html {
+  box-sizing: border-box;
+  font-family: var(--ff-content);
+}
+
+body{
+  margin: 0;
+}
+
+img {
+  /* display: block; */
+  max-width: 100%;
+}
+
+section {
+  padding: 20px 20px;
+}
+
+/* typography */
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h2 {
+  font-family: var(--ff-title);
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+p {
+  margin-bottom: 0.85rem ;
+}
+
+.text-primary {
+  color: var(--clr-primary);
+  opacity: 90%;
+}
+.box-logo section,
+.box-logo h1 {
+  display: flex;
+}
+.box-logo {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--clr-primary); 
+  width: 50%;
+  border-top: 0px solid #f24633;
+  border-right: 90px solid transparent ;
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: var(--ff-title);
+  color: var(--clr-white) ;
+  box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+  margin-bottom: 20px; 
+} 
+
+.box-logo a {
+  text-decoration: none;
+  color: var(--clr-white);
+}
+
+/* .box-logo a:focus,
+.box-logo a:hover {
+  color: #f5dbdb;
+}
+*/
+/* .socials a{
+  font-size: 45px;
+  position: relative;
+  display: block;
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid 4px; */
+  
+  .socials a,
+  .box-logo h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .socials a{
+    width: 80px;
+    height: 80px;
+    text-decoration: none;
+    margin: 10px;
+    position: relative;
+    font-size: 50px;
+  }
+  .socials a::before {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .socials a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    z-index: 0;
+  }
+
+  
+  .socials a::after{
+    border: 4px dashed;
+  }
+  
+  .socials a:hover::after {
+    animation: ro 7s linear infinite;
+  }
+
+  
+  
+  
+  
+ 
+
+
+
+
+
+
