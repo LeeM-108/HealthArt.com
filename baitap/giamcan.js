@@ -92,12 +92,7 @@ let baitap = [
     }
 
 ]
-let result = document.getElementById('result')
-let urlParams = new URLSearchParams(window.location.search)
-let bmi = urlParams.get('bmi')
-if (bmi) {
-    result.innerText = bmi
-}
+
 let domgiamcan=document.getElementById(`all`);
 let k=1;
 for(let i=0;i<baitap.length;i++){
