@@ -1,0 +1,120 @@
+.define{
+    position: relative;
+}
+.define img{
+    position: absolute;
+    z-index: -1;
+    margin-top: -200px;
+    width: 100%;
+}
+.title{
+    margin-left: 170px;
+}
+.how{
+    color: white;
+    font-size: 40px;
+    margin-top: 200px;
+    font-family: 'Dancing Script', cursive;
+}
+.page{
+    font-size: 55px;
+    color:white;
+    font-family: 'Anton', sans-serif;
+    margin-top: -10px;
+}
+.title-text{
+    font-size: 35px;
+    color: white;
+    margin-top: 18px;
+}
+.bmi{
+    font-size: 100px;
+    color: red;
+    font-family: 'Cookie', cursive;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.img1 img{
+    margin-top: -40px;
+    width: 600px;
+    height: 280px;
+    border: 1px;
+    box-shadow: 0 0 5px black;
+}
+.method{
+    margin-left: 620px;
+    margin-top: -20px;
+}
+.know{
+    font-size: 49px;
+    font-family: 'Dancing Script', cursive;
+    color: red;
+}
+.method-text1{
+    font-size: 25px;
+    margin-top: 20px;
+    width: 570px;
+    font-family: 'Dancing Script', cursive;
+}
+.content{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.kienThuc{
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    color: red;
+    margin-left: 420px;
+}
+.table{
+    margin-top: 50px;
+    display: flex;
+}
+.tieuThu{
+  font-size: 20px;
+  border: white 1px;
+  border-radius: 5px 5px 5px 5px;
+  flex: 33%;
+  box-shadow: 0 0 10px black;
+  padding: 40px;
+  text-align: left;
+}
+.dinhDuong{
+    font-size: 20px;
+  border: white 1px;
+  border-radius: 5px 5px 5px 5px;
+  flex: 33%;
+  box-shadow: 0 0 10px black;
+  padding: 40px;
+  text-align: left;
+}
+.vanDong{
+    font-size: 20px;
+  border: white 1px;
+  border-radius: 5px 5px 5px 5px;
+  flex: 33%;
+  box-shadow: 0 0 10px black;
+  padding: 40px;
+  text-align: left;
+}
+.chiSo{
+  font-size: 30px;
+  color: red;
+  font-family: 'Lobster', cursive;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+.num{
+    font-family: 'Source Serif Pro', serif;
+}
+.num::before{
+  content: "\27A3";
+  color:red;
+}
+.luuY{
+    font-family: 'Source Serif Pro', serif;
+}
+.luuY::before{
+    content: "\2736";
+    color: red;
+}

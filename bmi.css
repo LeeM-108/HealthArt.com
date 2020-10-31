@@ -89,6 +89,7 @@ body {
 .calculation::before{
   content: '\25AC\25AC\25AC\25AC\25AC';
   font-size: 18px;
+  
 }
 .calculation::after{
   content: '\25AC\25AC\25AC\25AC\25AC';
@@ -97,7 +98,7 @@ body {
 .text {
   position: relative;
   text-align: center;
-  height: 330px;
+  height: 495px;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -112,32 +113,92 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
-  opacity: 0.3;
+  opacity: 0.04;
 }
 .USE{
   font-size: 20px;
   border: white 1px;
   border-radius: 5px 5px 5px 5px;
   flex: 25%;
-  box-shadow:  rgba(0, 0, 0, 0.2) 0px 5px 15px;
-  padding-left: 15px;
+  box-shadow: 0 0 10px black;
+  padding: 40px;
   text-align: left;
+}
+.use{
+  font-size: 30px;
+  color: red;
+  font-family: 'Lobster', cursive;
+  margin-top: -30px;
+  margin-left: 20px;
 }
 .define{
   font-size: 20px;
   border: white 1px;
   border-radius: 5px 5px 5px 5px;
   flex: 25%;
-  box-shadow:  rgba(0, 0, 0, 0.2) 0px 5px 15px;
-  padding-left: 15px;
+  box-shadow: 0 0 10px black;
+  padding: 40px;
   text-align: left;
+}
+.define-bmi{
+  font-size: 30px;
+  color: red;
+  font-family: 'Lobster', cursive;
+  margin-top: -30px;
+  margin-left: 20px;
 }
 .evaluate{
   font-size: 20px;
   border: white 1px;
   border-radius: 5px 5px 5px 5px;
   flex: 25%;
-  box-shadow:  rgba(0, 0, 0, 0.2) 0px 5px 15px;
-  padding-left: 15px;
+  box-shadow: 0 0 10px black;
+  padding: 40px;
   text-align: left;
+}
+.evaluate-text{
+  font-size: 30px;
+  color: red;
+  font-family: 'Lobster', cursive;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+.affect{
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-top: 80px;
+}
+.affect img{
+  position: absolute;
+  z-index: -1;
+  height: 700px;
+  width: 100%;
+  margin-top: -52px;
+  top: 0;
+  left: 0;
+}
+.affect-text{
+  margin-left: 900px;
+  list-style: none;
+}
+.affect-1{
+  font-family: 'Source Serif Pro', serif;
+  color: #f24633;
+  font-size: 50px;
+  
+}
+.icon{
+  font-family: 'Lobster', cursive;
+  font-size: 28px;
+  margin-top: 6px;
+}
+.num{
+  margin-left: 19px;
+}
+.num::before{
+  content: "\27A3";
+  color:red;
+  font-size: 30px;
 }
