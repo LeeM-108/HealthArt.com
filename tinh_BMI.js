@@ -7,9 +7,9 @@ form.onsubmit = (e) =>{
         window.location.href = `../bmi_nguoigay/nguoitangcan.html?bmi=${c}`
 
     }
-    else if(c>=25){
-        window.location.href=`../bmi_nguoibeo/nguoithuacan.html?bmi=${c}`
+    else if(c>=18.5&&c<25.0){
+        window.location.href=`../bmi_nguoigiucan/nguoigiucan.html?bmi=${c}`
     }
     else 
-        window.location.href=`../bmi_nguoigiucan/nguoigiucan.html?bmi=${c}`
+        window.location.href=`../bmi_nguoibeo/nguoithuacan.html?bmi=${c}`
 }
