@@ -719,10 +719,6 @@ footer {
   }
 }
  
-
-  .ketQua{
-    margin-top: 3%;
-}
 .chucMung{
     font-size: 40px;
     color: red;
@@ -739,7 +735,7 @@ footer {
 .define img{
     position: absolute;
     z-index: -1;
-    margin-top: -3%;
+    margin-top: -4.8%;
     width: 100%;
 }
 .title{
@@ -772,7 +768,7 @@ footer {
 .img1 img{
     margin-top: 1%;
     width: 38%;
-    height: 15%;
+    height: 13%;
     border: 1px;
     box-shadow: 0 0 5px black;
 }
@@ -846,3 +842,17 @@ footer {
   content: "\27A3";
   color:red;
 }
+.video-container{
+  display: flex;
+
+}
+.video{
+  flex: 15%;
+  margin-bottom: 2%;
+  margin-left: 0.5%;
+}
+.title{
+  margin-top: 3%;
+}
+
+
