@@ -691,12 +691,12 @@ nav a:focus{
 .affect-1{
   font-family: 'Source Serif Pro', serif;
   color: #f24633;
-  font-size: 50px;
+  font-size: 310%;
   
 }
 .icon{
   font-family: 'Lobster', cursive;
-  font-size: 28px;
+  font-size: 173%;
   margin-top: 1%;
 }
 .num{
