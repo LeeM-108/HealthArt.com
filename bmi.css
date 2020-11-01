@@ -841,7 +841,7 @@ footer {
 .affect img{
   position: absolute;
   z-index: -1;
-  height: 35%;
+  height: 60%;
   width: 100%;
   top: 0;
   left: 0;
@@ -870,4 +870,12 @@ footer {
   content: "\27A3";
   color:red;
   font-size: 30px;
+}
+.video-container{
+  display: flex;
+  margin-bottom: 2%;
+  margin-left: 0.6%;
+}
+.video{
+  flex: 15%;
 }
