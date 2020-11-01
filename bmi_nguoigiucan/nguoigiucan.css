@@ -732,7 +732,7 @@ footer {
   
   
   .ketQua{
-    margin-top: 3%;
+    margin-top: -1%;
 }
 .chucMung{
     font-size: 40px;
@@ -742,7 +742,7 @@ footer {
 .ketQua-text{
     font-size: 30px;
     color: white;
-    margin-left: 18%;
+    margin-left: 15.5%;
 }
 .define{
     position: relative;
@@ -750,7 +750,7 @@ footer {
 .define img{
     position: absolute;
     z-index: -1;
-    margin-top: -3%;
+    margin-top: -3.8%;
     width: 100%;
 }
 .title{
@@ -759,7 +759,7 @@ footer {
 .how{
     color: white;
     font-size: 40px;
-    margin-top: 3%;
+    margin-top: 1%;
     font-family: 'Dancing Script', cursive;
 }
 .page{
@@ -781,15 +781,15 @@ footer {
     margin-left: 5%;
 }
 .img1 img{
-    margin-top: 1%;
+    margin-top: 4%;
     width: 38%;
-    height: 15%;
+    height: 13%;
     border: 1px;
     box-shadow: 0 0 5px black;
 }
 .method{
     margin-left: 50%;
-    margin-top: 4%;
+    margin-top: 8%;
 }
 .know{
     font-size: 49px;
@@ -857,16 +857,11 @@ footer {
   content: "\27A3";
   color:red;
 }
-@media screen and (max-width: 900px) {
-  footer {
-    position: relative;
-    bottom: 0px;
-  }
-  .main-content{
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .main-content .box {
-    margin: 5px 0;
-  }
+.video-container{
+  display: flex;
+  margin-bottom: 2%;
+  margin-left: 0.6%;
+}
+.video{
+  flex: 15%;
 }
