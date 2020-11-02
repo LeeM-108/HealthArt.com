@@ -136,7 +136,7 @@ p {
     transition: 0.3s;
   }
   .logo a:hover {
-    font-size: 3.8rem;
+    font-size: 4.3rem;
     transition: 0.3s;
   } 
   /* slidesow */
@@ -653,7 +653,7 @@ footer {
 .right form .text {
   font-size: 1.0625rem;
   margin-bottom: 2px;
-  color: var(--clr-fade);
+  color: var(--clr-text);
 }
 .right form .msg {
   margin-top: 10px;
@@ -666,6 +666,8 @@ footer {
   background: var(--clr-fade);
   padding-left: 10px;
   border: 1px solid #222222;
+  color: var(--clr-white);
+  font-family: var(--ff-content);
 }
 .right form input:focus, 
 .right form textarea:focus {
@@ -700,7 +702,7 @@ footer {
 .bottom center {
   padding: 5px;
   font-size: 0.9375rem;
-  background: var(--clr-fade)
+  background: var(--clr-fade);
 }
 
 .bottom center span {
