@@ -763,3 +763,7 @@ footer {
   width: 93%;
   border: 5px solid var(--clr-primary);
 }
+
+html {
+  scroll-behavior: smooth;
+}

@@ -888,3 +888,7 @@ footer {
   color: var(--clr-primary);
   transition: 0.7s;
 }
+
+html {
+  scroll-behavior: smooth;
+}
