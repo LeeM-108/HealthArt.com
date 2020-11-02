@@ -719,140 +719,170 @@ footer {
   }
 }
  
+.ketQua{
+  margin-top: 0%;
+}
 .chucMung{
-    font-size: 40px;
-    color: red;
-    margin-left: 20%;
+  font-size: 40px;
+  color: var(--clr-primary);
+  margin-left: 10%;
+  font-family: var(--ff-title);
 }
 .ketQua-text{
-    font-size: 30px;
-    color: white;
-    margin-left: 18%;
+  font-size: 30px;
+  color: var(--clr-white);
+  margin-left: 10%;
+  font-family: var(--ff-title);
 }
 .define{
-    position: relative;
+  position: relative;
 }
 .define img{
-    position: absolute;
-    z-index: -1;
-    margin-top: -4.8%;
-    width: 100%;
+  position: absolute;
+  z-index: -1;
+  margin-top: -4.8%;
+  width: 100%;
 }
 .title{
-    margin-left: 11%;
+  margin-left: 11%;
 }
 .how{
-    color: white;
-    font-size: 40px;
-    margin-top: 3%;
-    font-family: 'Dancing Script', cursive;
+  color: white;
+  font-size: 40px;
+  margin-top: 3%;
+  font-family: var(--ff-typo);
 }
 .page{
-    font-size: 55px;
-    color:white;
-    font-family: 'Anton', sans-serif;
-    margin-top: 0%;
+  font-size: 55px;
+  color:white;
+  font-family: var(--ff-title);
+  margin-top: 0%;
 }
 .title-text{
-    font-size: 35px;
-    color: white;
-    margin-top: 1%;
+  font-size: 35px;
+  color: white;
+  margin-top: 1%;
 }
 .bmi{
-    font-size: 100px;
-    color: red;
-    font-family: 'Cookie', cursive;
-    margin-top: 1%;
-    margin-left: 5%;
+  font-size: 100px;
+  color: red;
+  font-family: var(--ff-typo);
+  margin-top: 1%;
+  margin-left: 5%;
 }
 .img1 img{
-    margin-top: 1%;
-    width: 38%;
-    height: 13%;
-    border: 1px;
-    box-shadow: 0 0 5px black;
+  margin-top: 1%;
+  width: 38%;
+  height: 14%;
+  border: 1px;
+  box-shadow: 0 0 5px black;
 }
 .method{
-    margin-left: 50%;
-    margin-top: 4%;
+  margin-left: 48%;
+  margin-top: 4%;
 }
 .know{
-    font-size: 49px;
-    font-family: 'Dancing Script', cursive;
-    color: red;
+  font-size: 49px;
+  font-family: 'Dancing Script', cursive;
+  color: red;
 }
 .method-text1{
-    font-size: 25px;
-    margin-top: 20px;
-    width: 570px;
-    font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  margin-top: 20px;
+  width: 570px;
+  font-family: 'Dancing Script', cursive;
 }
 .content{
-    margin-top: 10%;
-    margin-left: 10%;
+  margin-top: 10%;
+  margin-left: 10%;
 }
 .kienThuc{
-    font-size: 70px;
-    font-family: 'Dancing Script', cursive;
-    color: red;
-    margin-left: 20%;
+  font-size: 70px;
+  font-family: var(--ff-typo);
+  color: red;
+  margin-left: 20%;
 }
 .table{
-    margin-top: 5%;
-    display: flex;
+  margin-top: 5%;
+  display: flex;
 }
 .tieuThu{
-  font-size: 20px;
-  border: white 1px;
-  border-radius: 5px 5px 5px 5px;
-  flex: 33%;
-  box-shadow: 0 0 10px black;
-  padding: 40px;
-  text-align: left;
+font-size: 20px;
+border: white 1px;
+border-radius: 5px 5px 5px 5px;
+flex: 33%;
+box-shadow: 0 0 10px black;
+padding: 40px;
+text-align: left;
 }
 .dinhDuong{
-  font-size: 20px;
-  border: white 1px;
-  border-radius: 5px 5px 5px 5px;
-  flex: 33%;
-  box-shadow: 0 0 10px black;
-  padding: 40px;
-  text-align: left;
+font-size: 20px;
+border: white 1px;
+border-radius: 5px 5px 5px 5px;
+flex: 33%;
+box-shadow: 0 0 10px black;
+padding: 40px;
+text-align: left;
 }
 .vanDong{
-    font-size: 20px;
-  border: white 1px;
-  border-radius: 5px 5px 5px 5px;
-  flex: 33%;
-  box-shadow: 0 0 10px black;
-  padding: 40px;
-  text-align: left;
+  font-size: 20px;
+border: white 1px;
+border-radius: 5px 5px 5px 5px;
+flex: 33%;
+box-shadow: 0 0 10px black;
+padding: 40px;
+text-align: left;
 }
 .chiSo{
-  font-size: 30px;
-  color: red;
-  font-family: 'Lobster', cursive;
-  margin-top: -30px;
-  margin-left: 20px;
+font-size: 30px;
+color: var(--clr-primary);
+font-family: var(--ff-title);
+margin-top: -30px;
+margin-left: 20px;
 }
 .num{
-    font-family: 'Source Serif Pro', serif;
+  font-family:  var(--ff-content);
 }
 .num::before{
-  content: "\27A3";
-  color:red;
+content: "\27A3";
+color:red;
+}
+.luuY{
+  font-family: var(--ff-content);
+}
+.luuY::before{
+  content: "\2736";
+  color: red;
 }
 .video-container{
-  display: flex;
-
+display: flex;
+margin-bottom: 2%;
+margin-left: 0.6%;
 }
 .video{
-  flex: 15%;
-  margin-bottom: 2%;
-  margin-left: 0.5%;
+flex: 15%;
 }
-.title{
-  margin-top: 3%;
+.boder{
+margin-top: 2%;
+margin-bottom:10px;
 }
 
+.exercises-showcase a {
+text-decoration: none;
+color: var(--clr-accent);
+transition: 0.7s;
+padding-left: 20px;
+font-size: 40px;
+padding-top: -100px;
+}
 
+.exercises-showcase a h2 {
+padding-left: 20px;
+padding-bottom: 20px;
+}
+
+.exercises-showcase a:hover,
+.exercises-showcase a:focus {
+color: var(--clr-primary);
+transition: 0.7s;
+}

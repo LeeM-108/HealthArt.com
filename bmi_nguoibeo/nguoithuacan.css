@@ -726,13 +726,15 @@ footer {
 }
 .chucMung{
     font-size: 40px;
-    color: red;
-    margin-left: 20%;
+    color: var(--clr-primary);
+    margin-left: 10%;
+    font-family: var(--ff-title);
 }
 .ketQua-text{
     font-size: 30px;
-    color: white;
-    margin-left: 18%;
+    color: var(--clr-white);
+    margin-left: 10%;
+    font-family: var(--ff-title);
 }
 .define{
     position: relative;
@@ -750,12 +752,12 @@ footer {
     color: white;
     font-size: 40px;
     margin-top: 3%;
-    font-family: 'Dancing Script', cursive;
+    font-family: var(--ff-typo);
 }
 .page{
     font-size: 55px;
     color:white;
-    font-family: 'Anton', sans-serif;
+    font-family: var(--ff-title);
     margin-top: 0%;
 }
 .title-text{
@@ -766,7 +768,7 @@ footer {
 .bmi{
     font-size: 100px;
     color: red;
-    font-family: 'Cookie', cursive;
+    font-family: var(--ff-typo);
     margin-top: 1%;
     margin-left: 5%;
 }
@@ -798,7 +800,7 @@ footer {
 }
 .kienThuc{
     font-size: 70px;
-    font-family: 'Dancing Script', cursive;
+    font-family: var(--ff-typo);
     color: red;
     margin-left: 20%;
 }
@@ -835,20 +837,20 @@ footer {
 }
 .chiSo{
   font-size: 30px;
-  color: red;
-  font-family: 'Lobster', cursive;
+  color: var(--clr-primary);
+  font-family: var(--ff-title);
   margin-top: -30px;
   margin-left: 20px;
 }
 .num{
-    font-family: 'Source Serif Pro', serif;
+    font-family:  var(--ff-content);
 }
 .num::before{
   content: "\27A3";
   color:red;
 }
 .luuY{
-    font-family: 'Source Serif Pro', serif;
+    font-family: var(--ff-content);
 }
 .luuY::before{
     content: "\2736";
@@ -864,4 +866,25 @@ footer {
 }
 .boder{
   margin-top: 2%;
+  margin-bottom:10px;
+}
+
+.exercises-showcase a {
+  text-decoration: none;
+  color: var(--clr-accent);
+  transition: 0.7s;
+  padding-left: 20px;
+  font-size: 40px;
+  padding-top: -100px;
+}
+
+.exercises-showcase a h2 {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.exercises-showcase a:hover,
+.exercises-showcase a:focus {
+  color: var(--clr-primary);
+  transition: 0.7s;
 }

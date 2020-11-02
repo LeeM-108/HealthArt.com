@@ -67,6 +67,7 @@
   height: 5px;
   background-color: #5c5c5c;
 }
+
 .video-container {
   width: 100%;
   display: grid;
@@ -78,11 +79,10 @@
   width: 90%;
 }
 
-
-
 .box-logo a{
   font: 70px Anton, sans-serif;
 }
+
 :root{
   --clr-text:  #5c5c5c;
   --clr-primary:  #f24633;
@@ -95,7 +95,6 @@
   --ff-typo: 'Pacifico', cursive;
   --ff-logo: 'Bangers', cursive;
 }
-
 
 
 html {
@@ -197,7 +196,6 @@ p {
     box-sizing: border-box;
     border-radius: 50%;
     z-index: 0;
-    
   }
 
   
@@ -207,7 +205,6 @@ p {
   
   .socials a:hover::after {
     animation: ro 7s linear infinite;
-    
   }
 
   @keyframes ro {
@@ -223,7 +220,7 @@ p {
     transition: 0.3s;
   }
   .logo a:hover {
-    font-size: 3.8rem;
+    font-size: 4.3rem;
     transition: 0.3s;
   } 
   /* slidesow */
@@ -384,27 +381,8 @@ nav a:focus{
   transition: width .3s;
 }
 
-
-/* buttons */
-
-
-
 /* Homepage styles */
 
-/* .slides-content {
-  background-color: #444343;
-  background-image: url(../picture/photo-1523901839036-a3030662f220.jpeg);
-  background-blend-mode: multiply;
-  background-attachment: fixed;
-  background-size: cover;
-  color: var(--clr-white);
-  padding: 30vh 0;
-  padding-left: 50px;
-  padding-top: initial;
-  padding-top: 30px;
-  font-size: 80px;
-  font-style: italic;
-} */
 .intro {
   text-align: center;
   font-size: 30px ;
@@ -452,6 +430,9 @@ nav a:focus{
 .cal1 a {
   text-decoration: none;
 }
+.cal2 a {
+  text-decoration: none;
+}
 .cal {
   border: 4px solid var(--clr-primary);
   background: none;
@@ -470,8 +451,9 @@ nav a:focus{
   transition: 0.8s;
 }
 
-.cal2 {
+.cal2 a{
   color: var(--clr-white);
+  transition: 0.8s;
 }
 
 .cal1 a:hover {
@@ -479,8 +461,9 @@ nav a:focus{
   transition: 0.8s;
 }
 
-.cal2:hover{
+.cal2 a:hover{
   color: var(--clr-primary);
+  transition: 0.8s;
 }
 
 .cal:before {
@@ -740,7 +723,7 @@ footer {
 .right form .text {
   font-size: 1.0625rem;
   margin-bottom: 2px;
-  color: var(--clr-fade);
+  color: var(--clr-text);
 }
 .right form .msg {
   margin-top: 10px;
@@ -749,10 +732,12 @@ footer {
 .right form input, 
 .right form textarea {
   width: 100%;
-  font-size: 1.0625rem;
+  font-size: 1rem;
   background: var(--clr-fade);
   padding-left: 10px;
   border: 1px solid #222222;
+  color: var(--clr-white);
+  font-family: var(--ff-content);
 }
 .right form input:focus, 
 .right form textarea:focus {
@@ -768,7 +753,8 @@ footer {
 }
 
 .right form .btn button {
-  height: 40px;
+  height: 30px;
+  align-items: center;
   width: 100%;
   border: none;
   outline: none;
@@ -787,7 +773,7 @@ footer {
 .bottom center {
   padding: 5px;
   font-size: 0.9375rem;
-  background: var(--clr-fade)
+  background: var(--clr-fade);
 }
 
 .bottom center span {
@@ -817,6 +803,12 @@ footer {
   }
 }
 
-
+.backgroud-text {
+  background-color: var(--clr-white);
+  opacity: 0.5;
+  color: var(--clr-fade);
+  font-size: 40px;
+  padding: 20px 20px;
+}
 
 

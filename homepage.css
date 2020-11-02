@@ -463,6 +463,7 @@ nav a:focus{
   font-size: 1.5em;
   font-family: var(--ff-title);
   margin-bottom: 0.3em;
+  transition: 0.7s;
 }
 
 .new p {
@@ -490,7 +491,7 @@ nav a:focus{
 .news-showcase a:hover {
   color: var(--clr-primary);
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.7s;
   font-size: 1.55rem;
 }
 
@@ -716,4 +717,49 @@ footer {
   .main-content .box {
     margin: 5px 0;
   }
+}
+.html {
+  scroll-behavior: smooth;
+}
+
+.exercises-showcase {
+  margin: 0;
+}
+
+.exercises-showcase__content h2 {
+  font-size: 3em;
+  padding: 0px 10px;
+}
+
+.exercises-showcase__content a {
+  text-decoration: none;
+  color: var(--clr-accent);
+  transition: 0.7s;
+}
+
+.exercises-showcase__content a h2{
+  transition: 0.7s;
+}
+
+.exercises-showcase__content a h2:hover,
+.exercises-showcase__content a h2:focus {
+  color: var(--clr-primary);
+  transition: 0.7s;
+}
+
+.video-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background: var(--clr-accent);
+  padding-top: 45px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  /* padding-bottom: 30px; */
+}
+
+.video-container iframe {
+  width: 93%;
+  border: 5px solid var(--clr-primary);
 }
